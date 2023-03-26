@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 1500px;
+}
+
+.faixa{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(144, 39, 140);
+}
+
+.faixa p{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    background-image: url(../imagens/logo1.png);
+    width: 210px;
+    height: 210px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.pesquisa input{
+    width: 70%;
+    margin-right: 10%;
+    margin-top: 60px;
+    border-radius: 10px;
+    border:0.5px solid rgb(144, 39, 140);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+    padding: 10px;
+}   
+
+.menu{
+    text-align: right;
+    width: 50%;
+    margin-right: 35%;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:rgb(144, 39, 140);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid rgb(144, 39, 140);
+    border-radius:10px;
+}
+
+.menu a:hover{
+    background-color: rgb(144, 39, 140);
+    color: white;
+    transition: 0.5s;
+}
+
+.banner{
+    background-image: url(../imagens/banner3.png);
+    width: 100%;
+    height: 600px;
+    margin-top: -40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;  
+}
+
+.Produtos-Top{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(144, 39, 140);
+    margin-bottom: 40px;
+}
+
+.carrosel{
+    text-align: center;
+}
+
+.produto1{
+    background-image: url(../imagens/Produto1.jfif);
+    width: 25%;
+    height: 400px;  
+    display: inline-block;
+    background-size: contain;
+    border: 2px solid rgb(144, 39, 140);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+
+.produto1 input{
+    display: none;
+}
+
+.produto1 label{
+    float:left;
+    width: 180px;
+    height: 40px;
+    margin-top: 90%;
+    margin-left: 30%;
+    background-color:rgb(144, 39, 140);
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.produto1 label p{
+    color: white;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.produto1 label:hover{
+    background-color: rgb(97, 26, 95);
+    transition: 0.5s;
+}
+
+.produto2{
+    background-image: url(../imagens/Produto2.jfif);
+    width: 25%;
+    height: 400px;  
+    display: inline-block;
+    background-size: contain;
+    border: 2px solid rgb(144, 39, 140);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.produto2 input{
+    display: none;
+}
+
+.produto2 label{
+    float:left;
+    width: 180px;
+    height: 40px;
+    margin-top: 90%;
+    margin-left: 30%;
+    background-color:rgb(144, 39, 140);
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.produto2 label p{
+    color: white;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.produto2 label:hover{
+    background-color: rgb(97, 26, 95);
+    transition: 0.5s;
+}
+
+.produto3{
+    background-image: url(../imagens/Produto3.jpg);
+    width: 25%;
+    height: 400px;  
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(144, 39, 140);
+    border-radius: 10px;
+    background-position: center;
+}
+
+.produto3 input{
+    display: none;
+}
+
+.produto3 label{
+    float:left;
+    width: 180px;
+    height: 40px;
+    margin-top: 90%;
+    margin-left: 30%;
+    background-color:rgb(144, 39, 140);
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.produto3 label p{
+    color: white;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.produto3 label:hover{
+    background-color: rgb(97, 26, 95);
+    transition: 0.5s;
+}
